@@ -9,7 +9,7 @@
     <style>
         textarea {
             display: block;
-            width: 80%;
+            width: 70%;
             height: 10vh;
             margin: 1rem;
             padding: 1rem;
@@ -18,7 +18,7 @@
         #output {
             border: 1px solid black;
             height: 10vh;
-            width: 80%;
+            width: 70%;
             margin: 1rem;
             padding: 1rem;
         }
@@ -26,14 +26,17 @@
 </head>
 <body>
     <nav class="navigation container">
-        <h1> talk banana!</h1>
+        <h1> talk  <span style="text-decoration: line-through;text-decoration-color: black;text-decoration-thickness: 2px;">dirty</span> banana to me!</h1>
+        
     </nav>
+    
     <hr>
     <div style="font-size: larger;">Input:</div>
 
-    <textarea id="txt-input" placeholder="put your sentence in English here and we will convert it to banana"></textarea>
+    <textarea style="display: inline;" id="txt-input" placeholder="put your sentence in English here and we will convert it to banana"></textarea>
+    <div style="display: inline;"><img src="images/minions.png"/ height="150px"></div>
 
-    <button class="link link-primary" id="btn-translate">Translate to banana</button>
+    <button style="display: block;" class="link link-primary" id="btn-translate">Translate to banana</button>
     <hr>
 
     <div style="font-size: larger;">Output will come here 👇</div>
